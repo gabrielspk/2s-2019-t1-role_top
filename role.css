@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFC600;
+
+}
+
+nav ul {
+    width: 100%;  
+    padding: 0px;
+    margin: 0px;
+    background-color:#7D0093;
+    list-style: none;
+
+    
+}
+
+nav ul li {
+    display: inline;
+    font-size: 1.5em;
+
+}
+
+nav ul li a {
+   flex-wrap: nowrap;
+    padding: 15px 189px;
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    border-bottom: 3px solid #FFFFFF;
+    border-bottom: none;
+ 
+}
+    nav ul li a:hover {
+        background-color: black;
+        color: #FFC600;
+    }
+/*************************************************************************************************************************************************
+                                                                    #logo-área
+**************************************************************************************************************************************************/
+
+#logo-area > img {
+padding: 3em 0 0 0;
+width: 26%;
+position: relative;
+left: 35%;
+background-position: center;
+
+}
+
+#logo-area {
+    background-image: url('../RolêTop/imagens/universo-2.jpeg');
+    background-position: center;
+
+}
+
+#logo-area h1 {
+    font-family: 'Anton', sans-serif;
+    padding: 1.5em 0 0 0;
+    color: white;
+    position: relative;
+    left: 43%;
+    max-width: 1000px;
+}
+/***********************************************************************************************************************************************************
+                                                            fim do #logo-área
+************************************************************************************************************************************************************/
+
+#galeria > img {
+    width: 45%;
+    position: relative;
+    left: 30%;
+}
+
+#galeria h1 {
+    font-family: 'arial';
+    
+    
+}
+
+hr {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
